@@ -2,6 +2,7 @@
 using MuscleMate_Gym.Data;
 using MuscleMate_Gym.Interfaces;
 using MuscleMate_Gym.Models;
+using MuscleMate_Gym.ViewModel;
 
 namespace MuscleMate_Gym.Controllers
 {
@@ -26,6 +27,7 @@ namespace MuscleMate_Gym.Controllers
             return View(exercise);
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
@@ -40,6 +42,52 @@ namespace MuscleMate_Gym.Controllers
             }
             _exerciseRepository.Add(exercise);
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var exercise = await _exerciseRepository.GetByIdAsync(id);
+            if (exercise == null) return View("Error");
+            var exerciseVM = new EditExerciseViewModel
+            {
+                Title = exercise.Title,
+                Description = exercise.Description,
+                ВetailsId = exercise.ВetailsId,
+                Details = exercise.Details,
+                Image = exercise.Image,
+                ExerciseCategory = exercise.ExerciseCategory
+            };
+            return View(exerciseVM);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, EditExerciseViewModel exerciseVM)
+        {
+            if (!ModelState.IsValid)
+            {
+                ModelState.AddModelError("", "Error to edit exercise");
+                return View("Edit", exerciseVM);
+            }
+            var userExercise = await _exerciseRepository.GetByIdAsyncNoTracking(id);
+            if(userExercise != null)
+            {
+                var exercise = new Exercise
+                {
+                    Id = id,
+                    Title = exerciseVM.Title,
+                    Description = exerciseVM.Description,
+                    Image = exerciseVM.Image,
+                    ВetailsId = exerciseVM.ВetailsId,
+                    Details = exerciseVM.Details
+                };
+                _exerciseRepository.Update(exercise);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(exerciseVM);
+            }
         }
     }
 }
