@@ -11,9 +11,9 @@ namespace MuscleMate_Gym.Models
         public string Id { get; set; }
         public int? Pace { get; set; }
         public int? Mileage { get; set; }
-        [ForeignKey("Details")]
+        [ForeignKey("Detail")]
         public int DetailsId { get; set; }
-        public Details? Details { get; set; }
+        public Detail? Detail { get; set; }
         public ICollection<Exercise> Exercises { get; set; }
         //public ICollection<Exercise> Races { get; set; }
     }

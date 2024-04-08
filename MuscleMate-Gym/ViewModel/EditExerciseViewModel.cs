@@ -9,8 +9,8 @@ namespace MuscleMate_Gym.ViewModel
         public string Title { get; set; }
         public string Description { get; set; }
         public string? Image { get; set; }
-        public int ВetailsId { get; set; }
-        public Details Details { get; set; }
+        public int DetailsId { get; set; }
+        public Detail Detail { get; set; }
         public ExerciseCategory ExerciseCategory { get; set; }
     }
 }

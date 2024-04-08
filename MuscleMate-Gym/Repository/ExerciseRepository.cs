@@ -32,17 +32,17 @@ namespace MuscleMate_Gym.Repository
 
         public async Task<Exercise> GetByIdAsync(int id)
         {
-            return await _context.Exercises.Include(i => i.Details).FirstOrDefaultAsync(i => i.Id == id);
+            return await _context.Exercises.Include(i => i.Detail).FirstOrDefaultAsync(i => i.Id == id);
         }
 
         public async Task<Exercise> GetByIdAsyncNoTracking(int id)
         {
-            return await _context.Exercises.Include(i => i.Details).AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
+            return await _context.Exercises.Include(i => i.Detail).AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
         }
 
         public async Task<IEnumerable<Exercise>> GetExirciseByTitle(string title)
         {
-            return await _context.Exercises.Where(c => c.Details.Title.Contains(title)).ToListAsync();
+            return await _context.Exercises.Where(c => c.Detail.Title.Contains(title)).ToListAsync();
         }
 
         public bool Save()

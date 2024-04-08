@@ -53,8 +53,8 @@ namespace MuscleMate_Gym.Controllers
             {
                 Title = exercise.Title,
                 Description = exercise.Description,
-                ВetailsId = exercise.ВetailsId,
-                Details = exercise.Details,
+                DetailsId = exercise.DetailsId,
+                Detail = exercise.Detail,
                 Image = exercise.Image,
                 ExerciseCategory = exercise.ExerciseCategory
             };
@@ -70,7 +70,7 @@ namespace MuscleMate_Gym.Controllers
                 return View("Edit", exerciseVM);
             }
             var userExercise = await _exerciseRepository.GetByIdAsyncNoTracking(id);
-            if(userExercise != null)
+            if (userExercise != null)
             {
                 var exercise = new Exercise
                 {
@@ -78,8 +78,8 @@ namespace MuscleMate_Gym.Controllers
                     Title = exerciseVM.Title,
                     Description = exerciseVM.Description,
                     Image = exerciseVM.Image,
-                    ВetailsId = exerciseVM.ВetailsId,
-                    Details = exerciseVM.Details
+                    DetailsId = exerciseVM.DetailsId,
+                    Detail = exerciseVM.Detail
                 };
                 _exerciseRepository.Update(exercise);
                 return RedirectToAction("Index");

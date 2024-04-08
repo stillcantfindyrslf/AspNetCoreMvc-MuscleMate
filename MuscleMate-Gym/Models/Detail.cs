@@ -2,7 +2,7 @@
 
 namespace MuscleMate_Gym.Models
 {
-    public class Details
+    public class Detail
     {
         [Key]
         public int Id { get; set; }

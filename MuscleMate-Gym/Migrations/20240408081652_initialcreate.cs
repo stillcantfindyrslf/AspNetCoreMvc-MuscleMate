@@ -52,7 +52,7 @@ namespace MuscleMate_Gym.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ВetailsId = table.Column<int>(type: "int", nullable: false),
+                    DetailsId = table.Column<int>(type: "int", nullable: false),
                     ExerciseCategory = table.Column<int>(type: "int", nullable: false),
                     AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
@@ -65,8 +65,8 @@ namespace MuscleMate_Gym.Migrations
                         principalTable: "AppUser",
                         principalColumn: "Id");
                     table.ForeignKey(
-                        name: "FK_Exercises_Details_ВetailsId",
-                        column: x => x.ВetailsId,
+                        name: "FK_Exercises_Details_DetailsId",
+                        column: x => x.DetailsId,
                         principalTable: "Details",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -83,9 +83,9 @@ namespace MuscleMate_Gym.Migrations
                 column: "AppUserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Exercises_ВetailsId",
+                name: "IX_Exercises_DetailsId",
                 table: "Exercises",
-                column: "ВetailsId");
+                column: "DetailsId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

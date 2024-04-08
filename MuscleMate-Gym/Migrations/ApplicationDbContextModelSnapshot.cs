@@ -43,7 +43,7 @@ namespace MuscleMate_Gym.Migrations
                     b.ToTable("AppUser");
                 });
 
-            modelBuilder.Entity("MuscleMate_Gym.Models.Details", b =>
+            modelBuilder.Entity("MuscleMate_Gym.Models.Detail", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -55,9 +55,6 @@ namespace MuscleMate_Gym.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ExerciseId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -67,8 +64,6 @@ namespace MuscleMate_Gym.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ExerciseId");
 
                     b.ToTable("Details");
                 });
@@ -106,25 +101,20 @@ namespace MuscleMate_Gym.Migrations
 
                     b.HasIndex("AppUserId");
 
+                    b.HasIndex("DetailsId");
+
                     b.ToTable("Exercises");
                 });
 
             modelBuilder.Entity("MuscleMate_Gym.Models.AppUser", b =>
                 {
-                    b.HasOne("MuscleMate_Gym.Models.Details", "Details")
+                    b.HasOne("MuscleMate_Gym.Models.Detail", "Detail")
                         .WithMany()
                         .HasForeignKey("DetailsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Details");
-                });
-
-            modelBuilder.Entity("MuscleMate_Gym.Models.Details", b =>
-                {
-                    b.HasOne("MuscleMate_Gym.Models.Exercise", null)
-                        .WithMany("Details")
-                        .HasForeignKey("ExerciseId");
+                    b.Navigation("Detail");
                 });
 
             modelBuilder.Entity("MuscleMate_Gym.Models.Exercise", b =>
@@ -133,17 +123,20 @@ namespace MuscleMate_Gym.Migrations
                         .WithMany("Exercises")
                         .HasForeignKey("AppUserId");
 
+                    b.HasOne("MuscleMate_Gym.Models.Detail", "Detail")
+                        .WithMany()
+                        .HasForeignKey("DetailsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("AppUser");
+
+                    b.Navigation("Detail");
                 });
 
             modelBuilder.Entity("MuscleMate_Gym.Models.AppUser", b =>
                 {
                     b.Navigation("Exercises");
-                });
-
-            modelBuilder.Entity("MuscleMate_Gym.Models.Exercise", b =>
-                {
-                    b.Navigation("Details");
                 });
 #pragma warning restore 612, 618
         }
