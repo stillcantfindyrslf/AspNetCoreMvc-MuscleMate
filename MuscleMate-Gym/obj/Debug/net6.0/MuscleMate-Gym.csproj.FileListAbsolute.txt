@@ -60,9 +60,10 @@ C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\stati
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\scopedcss\bundle\MuscleMate-Gym.styles.css
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\scopedcss\projectbundle\MuscleMate-Gym.bundle.scp.css
-C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMate-Gym.csproj.CopyComplete
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMate-Gym.dll
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\refint\MuscleMate-Gym.dll
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMate-Gym.pdb
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMate-Gym.genruntimeconfig.cache
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\ref\MuscleMate-Gym.dll
+C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMate-Gym.sourcelink.json
+C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMa.4813DDD8.Up2Date

@@ -89,5 +89,24 @@ namespace MuscleMate_Gym.Controllers
                 return View(exerciseVM);
             }
         }
+    
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var exerciseDetails = await _exerciseRepository.GetByIdAsync(id);
+            if (exerciseDetails == null) return View("Error");
+            return View(exerciseDetails);
+        }
+
+        [HttpPost, ActionName("Delete")]
+
+        public async Task<IActionResult> DeleteExercise(int id)
+        {
+            var exerciseDetails = await _exerciseRepository.GetByIdAsync(id);
+            if (exerciseDetails == null) return View("Error");
+
+            _exerciseRepository.Delete(exerciseDetails);
+            return RedirectToAction("Index");
+        }
     }
 }

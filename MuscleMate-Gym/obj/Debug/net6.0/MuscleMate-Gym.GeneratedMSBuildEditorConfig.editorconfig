@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MuscleMate_Gym
 build_property.RootNamespace = MuscleMate_Gym
 build_property.ProjectDir = C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -18,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 
 [C:/Users/ilasa/source/repos/MuscleMate-Gym/MuscleMate-Gym/Views/Exercise/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ilasa/source/repos/MuscleMate-Gym/MuscleMate-Gym/Views/Exercise/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ilasa/source/repos/MuscleMate-Gym/MuscleMate-Gym/Views/Exercise/Detail.cshtml]
