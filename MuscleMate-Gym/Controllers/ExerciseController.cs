@@ -2,7 +2,7 @@
 using MuscleMate_Gym.Data;
 using MuscleMate_Gym.Interfaces;
 using MuscleMate_Gym.Models;
-using MuscleMate_Gym.ViewModel;
+using MuscleMate_Gym.ViewModels;
 
 namespace MuscleMate_Gym.Controllers
 {

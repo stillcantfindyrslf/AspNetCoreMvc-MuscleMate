@@ -67,3 +67,8 @@ C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\Muscl
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\ref\MuscleMate-Gym.dll
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMate-Gym.sourcelink.json
 C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\obj\Debug\net6.0\MuscleMa.4813DDD8.Up2Date
+C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ilasa\source\repos\MuscleMate-Gym\MuscleMate-Gym\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

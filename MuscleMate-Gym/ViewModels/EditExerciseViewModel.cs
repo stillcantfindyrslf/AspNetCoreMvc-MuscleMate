@@ -1,7 +1,7 @@
 ﻿using MuscleMate_Gym.Data.Enum;
 using MuscleMate_Gym.Models;
 
-namespace MuscleMate_Gym.ViewModel
+namespace MuscleMate_Gym.ViewModels
 {
     public class EditExerciseViewModel
     {
