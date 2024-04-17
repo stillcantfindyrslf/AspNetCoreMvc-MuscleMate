@@ -3,16 +3,19 @@ using MuscleMate_Gym.Data;
 using MuscleMate_Gym.Interfaces;
 using MuscleMate_Gym.Models;
 using MuscleMate_Gym.ViewModels;
+using System.Net;
 
 namespace MuscleMate_Gym.Controllers
 {
     public class ExerciseController : Controller
     {
         private readonly IExerciseRepository _exerciseRepository;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public ExerciseController(IExerciseRepository exerciseRepository)
+        public ExerciseController(IExerciseRepository exerciseRepository, IHttpContextAccessor httpContextAccessor)
         {
             _exerciseRepository = exerciseRepository;
+            _httpContextAccessor = httpContextAccessor;
         }
         
         public async Task<IActionResult> Index()
@@ -30,18 +33,37 @@ namespace MuscleMate_Gym.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            var curUser = _httpContextAccessor.HttpContext.User.GetUserId();
+            var createExerciseViewModel = new CreateExerciseViewModel { AppUserId = curUser };
+            return View(createExerciseViewModel);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Exercise exercise)
+        public async Task<IActionResult> Create(CreateExerciseViewModel exerciseVM)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View(exercise);
+                var exercise = new Exercise
+                {
+                    Title = exerciseVM.Title,
+                    Description = exerciseVM.Description,
+                    Image = exerciseVM.Image.ToString(),
+                    AppUserId = exerciseVM.AppUserId,
+                    Detail = new Detail
+                    {
+                        Title = exerciseVM.Details.Title,
+                        Description = exerciseVM.Details.Description,
+                        URL = exerciseVM.Details.URL
+                    }
+                };
+                _exerciseRepository.Add(exercise);
+                return RedirectToAction("Index");
             }
-            _exerciseRepository.Add(exercise);
-            return RedirectToAction("Index");
+            else
+            {
+                ModelState.AddModelError("", "Error");
+            }
+            return View(exerciseVM);
         }
 
         [HttpGet]

@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IExerciseRepository, ExerciseRepository>();
+builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
@@ -27,8 +28,8 @@ var app = builder.Build();
 
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
 {
-    await Seed.SeedUsersAndRolesAsync(app);
-    //Seed.SeedData(app);
+    //await Seed.SeedUsersAndRolesAsync(app);
+    Seed.SeedData(app);
 }
 
 // Configure the HTTP request pipeline.
@@ -43,7 +44,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
