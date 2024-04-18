@@ -1,5 +1,6 @@
 ﻿@using MuscleMate_Gym.Data.Enum;
-@model Exercise
+@using MuscleMate_Gym.ViewModels;
+@model CreateExerciseViewModel
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -32,19 +33,19 @@
         <span asp-validation-for="ExerciseCategory" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Detail.Title">Street</label>
-        <input asp-for="Detail.Title" class="form-control" placeholder="Enter Title">
-        <span asp-validation-for="Detail.Title" class="text-danger"></span>
+        <label asp-for="Details.Title">Street</label>
+        <input asp-for="Details.Title" class="form-control" placeholder="Enter Title">
+        <span asp-validation-for="Details.Title" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Detail.Description">City</label>
-        <input asp-for="Detail.Description" class="form-control" placeholder="Enter Description">
-        <span asp-validation-for="Detail.Description" class="text-danger"></span>
+        <label asp-for="Details.Description">City</label>
+        <input asp-for="Details.Description" class="form-control" placeholder="Enter Description">
+        <span asp-validation-for="Details.Description" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Detail.URL">State</label>
-        <input asp-for="Detail.URL" class="form-control" placeholder="Enter URL">
-        <span asp-validation-for="Detail.URL" class="text-danger"></span>
+        <label asp-for="Details.URL">State</label>
+        <input asp-for="Details.URL" class="form-control" placeholder="Enter URL">
+        <span asp-validation-for="Details.URL" class="text-danger"></span>
     </div>
 
 
