@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MuscleMate-Gym")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efa5451e7a987472c744dccdc7221543c0331870")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee0242acf3cff67f7264fae23c80d6d95e5c5cb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MuscleMate-Gym")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MuscleMate-Gym")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
