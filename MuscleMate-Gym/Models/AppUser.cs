@@ -8,8 +8,7 @@ namespace MuscleMate_Gym.Models
 {
     public class AppUser : IdentityUser
     {
-        public int? Pace { get; set; }
-        public int? Mileage { get; set; }
+        public int? Favorites { get; set; }
         [ForeignKey("Detail")]
         public int? DetailsId { get; set; }
         public Detail? Detail { get; set; }

@@ -91,33 +91,45 @@ namespace MuscleMate_Gym.Data
 
                 //Users
                 var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
-                string adminUserEmail = "teddysmithdeveloper@gmail.com";
+                string adminUserEmail = "ilyawebdeveloper@gmail.com";
 
                 var adminUser = await userManager.FindByEmailAsync(adminUserEmail);
                 if (adminUser == null)
                 {
                     var newAdminUser = new AppUser()
                     {
-                        UserName = "teddysmithdev",
+                        UserName = "ilyshadev",
                         Email = adminUserEmail,
                         EmailConfirmed = true,
+                        Detail = new Detail()
+                        {
+                            Title = "Chinup",
+                            Description = "Grab the bar at (or slightly inside) shoulder width, with a supinated grip. While keeping core tight, pull yourself up until your chin is over the bar. Try not to use momentum to get your chin over the bar.",
+                            URL = "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2018/03/1109-chinup0.jpg?quality=86&strip=all"
+                        }
                     };
-                    await userManager.CreateAsync(newAdminUser, "Coding@1234?");
+                    await userManager.CreateAsync(newAdminUser, "@Coding1234?");
                     await userManager.AddToRoleAsync(newAdminUser, UserRoles.Admin);
                 }
 
-                string appUserEmail = "user@etickets.com";
+                string appUserEmail = "defaultuser@etickets.com";
 
                 var appUser = await userManager.FindByEmailAsync(appUserEmail);
                 if (appUser == null)
                 {
                     var newAppUser = new AppUser()
                     {
-                        UserName = "app-user",
+                        UserName = "default-user",
                         Email = appUserEmail,
                         EmailConfirmed = true,
+                        Detail = new Detail()
+                        {
+                            Title = "Chinup",
+                            Description = "Grab the bar at (or slightly inside) shoulder width, with a supinated grip. While keeping core tight, pull yourself up until your chin is over the bar. Try not to use momentum to get your chin over the bar.",
+                            URL = "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2018/03/1109-chinup0.jpg?quality=86&strip=all"
+                        }
                     };
-                    await userManager.CreateAsync(newAppUser, "Coding@1234?");
+                    await userManager.CreateAsync(newAppUser, "@Coding1234?");
                     await userManager.AddToRoleAsync(newAppUser, UserRoles.User);
                 }
             }

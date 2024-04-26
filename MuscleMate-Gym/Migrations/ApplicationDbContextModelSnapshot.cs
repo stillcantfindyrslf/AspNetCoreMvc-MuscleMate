@@ -167,7 +167,7 @@ namespace MuscleMate_Gym.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DetailsId")
+                    b.Property<int?>("DetailsId")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -177,14 +177,14 @@ namespace MuscleMate_Gym.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<int?>("Favorites")
+                        .HasColumnType("int");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
-
-                    b.Property<int?>("Mileage")
-                        .HasColumnType("int");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -193,9 +193,6 @@ namespace MuscleMate_Gym.Migrations
                     b.Property<string>("NormalizedUserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
-
-                    b.Property<int?>("Pace")
-                        .HasColumnType("int");
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
@@ -349,9 +346,7 @@ namespace MuscleMate_Gym.Migrations
                 {
                     b.HasOne("MuscleMate_Gym.Models.Detail", "Detail")
                         .WithMany()
-                        .HasForeignKey("DetailsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DetailsId");
 
                     b.Navigation("Detail");
                 });

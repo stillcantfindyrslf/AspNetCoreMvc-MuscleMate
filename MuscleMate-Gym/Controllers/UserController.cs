@@ -24,8 +24,7 @@ namespace MuscleMate_Gym.Controllers
                 {
                     Id = user.Id,
                     UserName = user.UserName,
-                    Pace = user.Pace,
-                    Mileage = user.Mileage
+                    Favorites = user.Favorites,
                 };
                 result.Add(userViewModel);
             }
@@ -39,8 +38,7 @@ namespace MuscleMate_Gym.Controllers
             {
                 Id = user.Id,
                 UserName= user.UserName,
-                Pace= user.Pace,
-                Mileage= user.Mileage
+                Favorites = user.Favorites,
             };
             return View(userDetailViewModel);
         }
