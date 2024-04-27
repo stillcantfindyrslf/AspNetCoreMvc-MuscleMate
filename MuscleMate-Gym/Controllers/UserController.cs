@@ -37,7 +37,7 @@ namespace MuscleMate_Gym.Controllers
             var userDetailViewModel = new UserDetailViewModel
             {
                 Id = user.Id,
-                UserName= user.UserName,
+                UserName = user.UserName,
                 Favorites = user.Favorites,
             };
             return View(userDetailViewModel);
