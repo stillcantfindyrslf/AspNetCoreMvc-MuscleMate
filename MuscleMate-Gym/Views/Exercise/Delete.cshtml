@@ -1,54 +1,11 @@
 ﻿@using MuscleMate_Gym.Data.Enum
 @model Exercise
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
 
-<h1>Are you sure you want to delete this club?</h1>
 
-<form method="post" asp-action="Delete" enctype="multipart/form-data">
-    <input type="hidden" value="AddressId" id="AddressId" />
-    <div class="form-group">
-        <label asp-for="Title">Title</label>
-        <input asp-for="Title" class="form-control" placeholder="Title">
-        <span asp-validation-for="Title" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Description">Description</label>
-        <input asp-for="Description" class="form-control" placeholder="Description">
-        <span asp-validation-for="Description" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="ExerciseCategory">Club Category</label>
-        <select asp-for="ExerciseCategory" asp-items="@Html.GetEnumSelectList<ExerciseCategory>()" class="form-control">
-            <option selected="selected" value="">--Select--</option>
-        </select>
-        <span asp-validation-for="ExerciseCategory" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Detail.Title">Street</label>
-        <input asp-for="Detail.Title" class="form-control" placeholder="Street">
-        <span asp-validation-for="Detail.Title" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Detail.Description">City</label>
-        <input asp-for="Detail.Description" class="form-control" placeholder="City">
-        <span asp-validation-for="Detail.Description" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Detail.URL">State</label>
-        <input asp-for="Detail.URL" class="form-control" placeholder="Street">
-        <span asp-validation-for="Detail.URL" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Image">Image</label>
-        <input asp-for="Image" type="file" class="form-control" placeholder="Image">
-        <span asp-validation-for="Image" class="text-danger"></span>
+<h1>Are you sure you want to delete this post?</h1>
 
-    </div>
-</form>
+<p>Please confirm that you want to delete this post. This action cannot be undone.</p>
+
 <div class="form-group">
     <form action="Delete" method="post">
         <input type="hidden" asp-for="Id" />

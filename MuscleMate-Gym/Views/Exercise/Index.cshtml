@@ -1,34 +1,40 @@
 ﻿@model IEnumerable<Exercise>
 
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
 
-<div class="album py-5 bg-body-tertiary">
-    <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            @foreach (var item in Model)
-            {
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="card-img-top" src="@item.Image" width="100%" height="225" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">@item.Title</p>
-                            <p class="card-text">@item.Description</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a type="btn-btn-success" asp-controller="Exercise" asp-action="Detail" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">View</a>
-                                    <a asp-controller="Exercise" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
-                                    <a asp-controller="Exercise" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Delete</a>
-                                </div>
-                                <small class="text-body-secondary">@item.ExerciseCategory</small>
-                            </div>
-                        </div>
-                    </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Index" method="get" class="form-inline">
+                <div class="input-group mb-3">
+                    <input type="text" name="SearchString" class="form-control" value="@ViewData["CurrentFilter"]" placeholder="Search..." aria-describedby="button" />
+                    <button type="submit" class="btn btn-primary" id="button">Search</button>
                 </div>
-            }
+            </form>
         </div>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-12">
+                <div class="card text-white bg-dark mb-3 shadow" style="background-image: url('@item.Image'); background-size: cover;"
+                    onclick="location.href='@Url.Action("Detail", "Exercise", new { id = @item.Id })';">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text">@(item.Description.Length > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)</p>
+                        <p class="text-body-secondary">@item.ExerciseCategory</p>
+                            <div class="btn-group">
+                                @* <a asp-controller="Exercise" asp-action="Detail" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View</a> *@
+                                <a asp-controller="Exercise" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-light">Edit</a>
+                                <a asp-controller="Exercise" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-light">Delete</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+

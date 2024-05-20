@@ -1,70 +1,56 @@
 ﻿@model Exercise
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-<!-- Page Content -->
-<div class="container">
 
-    <!-- Portfolio Item Heading -->
-    <h1 class="my-4">
-        Page Heading
-        <small>Secondary Text</small>
-    </h1>
 
-    <!-- Portfolio Item Row -->
-    <div class="row">
+ <div class="container mt-5">
 
-        <div class="col-md-8">
-            <img class="img-fluid" src="@Model.Image" alt="">
+        <div class="row">
+
+            <div class="col-md-8">
+                <img class="img-fluid" src="@Model.Image" alt="">
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="my-3 exercise-title">@Model.Title</h3>
+                <p class="exercise-description">@Model.Description</p>
+                <h3 class="my-3">Other</h3>
+                <ul class="exercise-details">
+                    <li><strong>Title:</strong> @Model.Detail.Title</li>
+                    <li><strong>Description:</strong> @Model.Detail.Description</li>
+                    <li><strong>URL:</strong> <a href="@Model.Detail.URL">@Model.Detail.URL</a></li>
+                    <li><strong>Category:</strong> @Model.ExerciseCategory</li>
+                </ul>
+            </div>
+
         </div>
 
-        <div class="col-md-4">
-            <h3 class="my-3">@Model.Title</h3>
-            <p>@Model.Description</p>
-            <h3 class="my-3">Other</h3>
-            <ul>
-                <li>@Model.Detail.Title</li>
-                <li>@Model.Detail.Description</li>
-                <li>@Model.Detail.URL</li>
-                <li>@Model.ExerciseCategory</li>
-            </ul>
-        </div>
+        <h3 class="my-4">Related Projects</h3>
 
-    </div>
-    <!-- /.row -->
-    <!-- Related Projects Row -->
-    <h3 class="my-4">Related Projects</h3>
+        <div class="row related-projects">
 
-    <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
+                </a>
+            </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-                <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-            </a>
-        </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
+                </a>
+            </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-                <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-            </a>
-        </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
+                </a>
+            </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-                <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-            </a>
-        </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
+                </a>
+            </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-                <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-            </a>
         </div>
 
     </div>
-    <!-- /.row -->
-
-</div>
-<!-- /.container -->

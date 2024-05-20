@@ -13,6 +13,5 @@ namespace MuscleMate_Gym.Models
         public int? DetailsId { get; set; }
         public Detail? Detail { get; set; }
         public ICollection<Exercise> Exercises { get; set; }
-        //public ICollection<Exercise> Races { get; set; }
     }
 }

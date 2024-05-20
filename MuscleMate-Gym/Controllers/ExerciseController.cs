@@ -18,9 +18,15 @@ namespace MuscleMate_Gym.Controllers
             _httpContextAccessor = httpContextAccessor;
         }
         
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
+            ViewData["CurrentFilter"] = searchString;
+
             IEnumerable<Exercise> exercises = await _exerciseRepository.GetAll();
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                exercises = await _exerciseRepository.SearchName(searchString);
+            }
             return View(exercises);
         }
 

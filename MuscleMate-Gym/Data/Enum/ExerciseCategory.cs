@@ -2,10 +2,8 @@
 {
     public enum ExerciseCategory
     {
-        RoadRunner,
         Legs,
         Arms,
-        Body,
-        Endurance
+        Body
     }
 }
