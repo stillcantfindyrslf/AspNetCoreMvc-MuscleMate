@@ -15,5 +15,6 @@ namespace MuscleMate_Gym.Data
         }
         public DbSet<Exercise> Exercises { get; set; }
         public DbSet<Detail> Details { get; set; }
+        public DbSet<Favorite> Favorites { get; set; }
     }
 }

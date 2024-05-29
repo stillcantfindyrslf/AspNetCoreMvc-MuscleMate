@@ -38,6 +38,7 @@ namespace MuscleMate_Gym.Controllers
             {
                 Id = curUserId,
                 UserName = user.UserName,
+                Description = user.Description,
                 Favorites = user.Favorites
             };
             return View(editUserViewModel);

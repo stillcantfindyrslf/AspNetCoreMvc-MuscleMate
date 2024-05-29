@@ -1,12 +1,18 @@
 ﻿@using MuscleMate_Gym.ViewModels
 @model EditUserDashboardViewModel
 
+
 <form method="post" asp-action="EditUserProfile" enctype="multipart/form-data">
     <input type="hidden" id="Id" name="Id" asp-for="Id" />
     <div class="form-group">
         <label asp-for="Favorites">Favorites</label>
         <input asp-for="Favorites" class="form-control" placeholder="Favorites">
         <span asp-validation-for="Favorites" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <input asp-for="Description" class="form-control" placeholder="Description">
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="UserName">UserName</label>

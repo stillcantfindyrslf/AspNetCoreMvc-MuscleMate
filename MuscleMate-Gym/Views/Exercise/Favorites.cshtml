@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MuscleMate_Gym.Models.Exercise>
+
+
+<div class="container">
+    <h2>Your Favorites</h2>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-12">
+                <div class="card text-white bg-dark mb-3 shadow" style="background-image: url('@item.Image'); background-size: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text">@(item.Description.Length > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)</p>
+                        <p class="text-body-secondary">@item.ExerciseCategory</p>
+                        <div class="btn-group">
+                            <a asp-controller="Exercise" asp-action="Detail" asp-route-id="@item.Id" class="btn btn-sm btn-outline-light">View</a>
+                            <form asp-controller="Exercise" asp-action="RemoveFromFavorites" method="post" class="d-inline">
+                                <input type="hidden" name="exerciseId" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-outline-light">Remove from Favorites</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

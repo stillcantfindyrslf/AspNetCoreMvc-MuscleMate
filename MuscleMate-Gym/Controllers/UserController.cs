@@ -24,6 +24,7 @@ namespace MuscleMate_Gym.Controllers
                 {
                     Id = user.Id,
                     UserName = user.UserName,
+                    Description = user.Description,
                     Favorites = user.Favorites,
                 };
                 result.Add(userViewModel);
@@ -38,6 +39,7 @@ namespace MuscleMate_Gym.Controllers
             {
                 Id = user.Id,
                 UserName = user.UserName,
+                Description = user.Description,
                 Favorites = user.Favorites,
             };
             return View(userDetailViewModel);

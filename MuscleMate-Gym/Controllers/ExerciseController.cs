@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using MuscleMate_Gym.Data;
 using MuscleMate_Gym.Interfaces;
 using MuscleMate_Gym.Models;
@@ -11,13 +12,18 @@ namespace MuscleMate_Gym.Controllers
     {
         private readonly IExerciseRepository _exerciseRepository;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly IFavoriteRepository _favoriteRepository;
 
-        public ExerciseController(IExerciseRepository exerciseRepository, IHttpContextAccessor httpContextAccessor)
+        public ExerciseController(IExerciseRepository exerciseRepository, IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager, IFavoriteRepository favoriteRepository)
         {
             _exerciseRepository = exerciseRepository;
             _httpContextAccessor = httpContextAccessor;
+            _userManager = userManager;
+            _favoriteRepository = favoriteRepository;
         }
-        
+
+        [HttpGet]
         public async Task<IActionResult> Index(string searchString)
         {
             ViewData["CurrentFilter"] = searchString;
@@ -30,6 +36,7 @@ namespace MuscleMate_Gym.Controllers
             return View(exercises);
         }
 
+        [HttpGet]
         public async Task<IActionResult> Detail(int id)
         {
             Exercise exercise = await _exerciseRepository.GetByIdAsync(id);
@@ -136,5 +143,53 @@ namespace MuscleMate_Gym.Controllers
             _exerciseRepository.Delete(exerciseDetails);
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddToFavorites(IEnumerable<int> exerciseIds)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            foreach (var exerciseId in exerciseIds)
+            {
+                await _favoriteRepository.AddFavoriteAsync(user.Id, exerciseId);
+            }
+
+            await _favoriteRepository.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveFromFavorites(int exerciseId)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            await _favoriteRepository.RemoveFavoriteAsync(user.Id, exerciseId);
+            await _favoriteRepository.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Favorites()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            var favoriteExercises = await _favoriteRepository.GetFavoritesByUserIdAsync(user.Id);
+            return View(favoriteExercises);
+        }
+
+
     }
 }

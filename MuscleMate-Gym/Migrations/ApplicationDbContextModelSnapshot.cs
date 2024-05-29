@@ -167,6 +167,9 @@ namespace MuscleMate_Gym.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("DetailsId")
                         .HasColumnType("int");
 
@@ -240,9 +243,6 @@ namespace MuscleMate_Gym.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ExerciseId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -253,9 +253,7 @@ namespace MuscleMate_Gym.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ExerciseId");
-
-                    b.ToTable("Details");
+                    b.ToTable("Details", (string)null);
                 });
 
             modelBuilder.Entity("MuscleMate_Gym.Models.Exercise", b =>
@@ -273,6 +271,9 @@ namespace MuscleMate_Gym.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("DetailsId")
+                        .HasColumnType("int");
+
                     b.Property<int>("ExerciseCategory")
                         .HasColumnType("int");
 
@@ -288,7 +289,29 @@ namespace MuscleMate_Gym.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("Exercises");
+                    b.HasIndex("DetailsId");
+
+                    b.ToTable("Exercises", (string)null);
+                });
+
+            modelBuilder.Entity("MuscleMate_Gym.Models.Favorite", b =>
+                {
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("AppUserId1")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("ExerciseId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AppUserId");
+
+                    b.HasIndex("AppUserId1");
+
+                    b.HasIndex("ExerciseId");
+
+                    b.ToTable("Favorites", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -351,34 +374,43 @@ namespace MuscleMate_Gym.Migrations
                     b.Navigation("Detail");
                 });
 
-            modelBuilder.Entity("MuscleMate_Gym.Models.Detail", b =>
-                {
-                    b.HasOne("MuscleMate_Gym.Models.Exercise", "Exercise")
-                        .WithMany("Details")
-                        .HasForeignKey("ExerciseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Exercise");
-                });
-
             modelBuilder.Entity("MuscleMate_Gym.Models.Exercise", b =>
                 {
                     b.HasOne("MuscleMate_Gym.Models.AppUser", "AppUser")
                         .WithMany("Exercises")
                         .HasForeignKey("AppUserId");
 
+                    b.HasOne("MuscleMate_Gym.Models.Detail", "Detail")
+                        .WithMany()
+                        .HasForeignKey("DetailsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("AppUser");
+
+                    b.Navigation("Detail");
+                });
+
+            modelBuilder.Entity("MuscleMate_Gym.Models.Favorite", b =>
+                {
+                    b.HasOne("MuscleMate_Gym.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId1");
+
+                    b.HasOne("MuscleMate_Gym.Models.Exercise", "Exercise")
+                        .WithMany()
+                        .HasForeignKey("ExerciseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Exercise");
                 });
 
             modelBuilder.Entity("MuscleMate_Gym.Models.AppUser", b =>
                 {
                     b.Navigation("Exercises");
-                });
-
-            modelBuilder.Entity("MuscleMate_Gym.Models.Exercise", b =>
-                {
-                    b.Navigation("Details");
                 });
 #pragma warning restore 612, 618
         }

@@ -19,7 +19,7 @@ namespace MuscleMate_Gym.Repository
         public async Task<List<Exercise>> GetAllUserExercises()
         {
             var curUser = _httpContextAccessor.HttpContext?.User.GetUserId();
-            var userExercises = _context.Exercises.Where(r => r.AppUser.Id == curUser);
+            var userExercises = _context.Exercises.Where(e => e.AppUser.Id == curUser);
             return userExercises.ToList();
         }
 
