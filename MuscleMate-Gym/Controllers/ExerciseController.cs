@@ -134,7 +134,6 @@ namespace MuscleMate_Gym.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-
         public async Task<IActionResult> DeleteExercise(int id)
         {
             var exerciseDetails = await _exerciseRepository.GetByIdAsync(id);
@@ -150,7 +149,7 @@ namespace MuscleMate_Gym.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return Unauthorized();
+                return RedirectToAction("Index");
             }
 
             foreach (var exerciseId in exerciseIds)
@@ -158,7 +157,7 @@ namespace MuscleMate_Gym.Controllers
                 await _favoriteRepository.AddFavoriteAsync(user.Id, exerciseId);
             }
 
-            await _favoriteRepository.SaveChangesAsync();
+            await _favoriteRepository.Save();
 
             return RedirectToAction("Index");
         }
@@ -169,21 +168,22 @@ namespace MuscleMate_Gym.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return Unauthorized();
+                return RedirectToAction("Index");
             }
 
             await _favoriteRepository.RemoveFavoriteAsync(user.Id, exerciseId);
-            await _favoriteRepository.SaveChangesAsync();
+            await _favoriteRepository.Save();
 
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
         public async Task<IActionResult> Favorites()
         {
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return Unauthorized();
+                return RedirectToAction("Index");
             }
 
             var favoriteExercises = await _favoriteRepository.GetFavoritesByUserIdAsync(user.Id);

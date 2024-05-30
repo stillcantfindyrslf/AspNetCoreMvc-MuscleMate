@@ -3,36 +3,148 @@
   "WorkspaceRootPath": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\migrations\\20240526165432_favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\migrations\\20240526165432_favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\migrations\\20240526162722_addpropdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\migrations\\20240526162722_addpropdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\migrations\\20240520065155_addexerciseidtodetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\migrations\\20240520065155_addexerciseidtodetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\repository\\favoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\repository\\favoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\dashboard\\edituserprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\dashboard\\edituserprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\data\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\data\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\createexerciseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\createexerciseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\views\\exercise\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\views\\exercise\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\models\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\models\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\models\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\models\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\edituserdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\edituserdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\editexerciseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\editexerciseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\viewmodels\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\viewmodels\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\interfaces\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\interfaces\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|c:\\users\\ilasa\\source\\repos\\musclemate-gym\\musclemate-gym\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DCB292-BF5A-47D7-B6FE-723FA4C16343}|MuscleMate-Gym\\MuscleMate-Gym.csproj|solutionrelative:musclemate-gym\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,71 +163,408 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240526165432_favorites.cs",
-              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Migrations\\20240526165432_favorites.cs",
-              "RelativeDocumentMoniker": "MuscleMate-Gym\\Migrations\\20240526165432_favorites.cs",
-              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Migrations\\20240526165432_favorites.cs",
-              "RelativeToolTip": "MuscleMate-Gym\\Migrations\\20240526165432_favorites.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T13:02:19.14Z",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T19:26:17.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240526162722_addPropDescription.cs",
-              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Migrations\\20240526162722_addPropDescription.cs",
-              "RelativeDocumentMoniker": "MuscleMate-Gym\\Migrations\\20240526162722_addPropDescription.cs",
-              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Migrations\\20240526162722_addPropDescription.cs",
-              "RelativeToolTip": "MuscleMate-Gym\\Migrations\\20240526162722_addPropDescription.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T13:02:14.81Z",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T19:26:15.687Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:56:31.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Detail.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Exercise\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Detail.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Exercise\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:56:59.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:57:31.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T12:57:58.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T12:57:27.819Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20240520065155_AddExerciseIdToDetails.cs",
-              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Migrations\\20240520065155_AddExerciseIdToDetails.cs",
-              "RelativeDocumentMoniker": "MuscleMate-Gym\\Migrations\\20240520065155_AddExerciseIdToDetails.cs",
-              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Migrations\\20240520065155_AddExerciseIdToDetails.cs",
-              "RelativeToolTip": "MuscleMate-Gym\\Migrations\\20240520065155_AddExerciseIdToDetails.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T13:02:13.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Index.cshtml",
               "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Exercise\\Index.cshtml",
               "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Index.cshtml",
               "RelativeToolTip": "MuscleMate-Gym\\Views\\Exercise\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-29T12:50:37.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "ExerciseController.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\ExerciseController.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Controllers\\ExerciseController.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\ExerciseController.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Controllers\\ExerciseController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:14:53.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T13:00:08.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Create.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Exercise\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Create.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Exercise\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:55:56.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditUserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Dashboard\\EditUserProfile.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Dashboard\\EditUserProfile.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Dashboard\\EditUserProfile.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Dashboard\\EditUserProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:52:51.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Data\\UserRoles.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Data\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Data\\UserRoles.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Data\\UserRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:21:45.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:51:01.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:49:50.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:21:47.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Favorites.cshtml",
               "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Favorites.cshtml",
               "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Exercise\\Favorites.cshtml",
               "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Favorites.cshtml",
               "RelativeToolTip": "MuscleMate-Gym\\Views\\Exercise\\Favorites.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T12:50:32.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T13:57:08.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Exercise\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Delete.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Exercise\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:56:51.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateExerciseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\CreateExerciseViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\CreateExerciseViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\CreateExerciseViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\CreateExerciseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:52:18.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Views\\Exercise\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Views\\Exercise\\Edit.cshtml",
+              "RelativeToolTip": "MuscleMate-Gym\\Views\\Exercise\\Edit.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:57:02.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Exercise.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Models\\Exercise.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Models\\Exercise.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Models\\Exercise.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Models\\Exercise.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:30:03.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Detail.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Models\\Detail.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Models\\Detail.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Models\\Detail.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Models\\Detail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:29:58.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditUserDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\EditUserDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\EditUserDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\EditUserDashboardViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\EditUserDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:52:07.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:06:14.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:11:19.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:50:33.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:52:16.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditExerciseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\EditExerciseViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\EditExerciseViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\EditExerciseViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\EditExerciseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:52:14.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:52:04.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:52:02.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\UserDetailViewModel.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\ViewModels\\UserDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\ViewModels\\UserDetailViewModel.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\ViewModels\\UserDetailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:50:49.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Models\\AppUser.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:22:06.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:22:01.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "IFavoriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Interfaces\\IFavoriteRepository.cs",
               "RelativeDocumentMoniker": "MuscleMate-Gym\\Interfaces\\IFavoriteRepository.cs",
@@ -123,34 +572,31 @@
               "RelativeToolTip": "MuscleMate-Gym\\Interfaces\\IFavoriteRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T12:49:04.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T13:22:00.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FavoriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Repository\\FavoriteRepository.cs",
-              "RelativeDocumentMoniker": "MuscleMate-Gym\\Repository\\FavoriteRepository.cs",
-              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Repository\\FavoriteRepository.cs",
-              "RelativeToolTip": "MuscleMate-Gym\\Repository\\FavoriteRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAArAAAA",
+              "DocumentIndex": 34,
+              "Title": "IDashboardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Interfaces\\IDashboardRepository.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Interfaces\\IDashboardRepository.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Interfaces\\IDashboardRepository.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Interfaces\\IDashboardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T12:48:15.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T13:21:55.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExerciseController.cs",
-              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\ExerciseController.cs",
-              "RelativeDocumentMoniker": "MuscleMate-Gym\\Controllers\\ExerciseController.cs",
-              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\ExerciseController.cs",
-              "RelativeToolTip": "MuscleMate-Gym\\Controllers\\ExerciseController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAqwLAAAAAAAAAA",
+              "DocumentIndex": 35,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MuscleMate-Gym\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ilasa\\source\\repos\\MuscleMate-Gym\\MuscleMate-Gym\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MuscleMate-Gym\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowA0AAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:40:42.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T13:17:18.449Z"
             }
           ]
         }

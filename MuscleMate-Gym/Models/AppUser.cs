@@ -9,7 +9,6 @@ namespace MuscleMate_Gym.Models
     public class AppUser : IdentityUser
     {
         public string? Description { get; set; }
-        public int? Favorites { get; set; }
         [ForeignKey("Detail")]
         public int? DetailsId { get; set; }
         public Detail? Detail { get; set; }

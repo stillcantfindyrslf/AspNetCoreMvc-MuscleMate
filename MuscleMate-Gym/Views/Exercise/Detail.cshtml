@@ -1,56 +1,22 @@
-﻿@model Exercise
-
-
- <div class="container mt-5">
-
-        <div class="row">
-
-            <div class="col-md-8">
-                <img class="img-fluid" src="@Model.Image" alt="">
-            </div>
-
-            <div class="col-md-4">
-                <h3 class="my-3 exercise-title">@Model.Title</h3>
-                <p class="exercise-description">@Model.Description</p>
-                <h3 class="my-3">Other</h3>
-                <ul class="exercise-details">
-                    <li><strong>Title:</strong> @Model.Detail.Title</li>
-                    <li><strong>Description:</strong> @Model.Detail.Description</li>
-                    <li><strong>URL:</strong> <a href="@Model.Detail.URL">@Model.Detail.URL</a></li>
-                    <li><strong>Category:</strong> @Model.ExerciseCategory</li>
-                </ul>
-            </div>
-
+﻿<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-uppercase text-warning display-6">@Model.Title</h2>
+            <p class="text-muted h5">@Model.Description</p>
         </div>
-
-        <h3 class="my-4">Related Projects</h3>
-
-        <div class="row related-projects">
-
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#">
-                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#">
-                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#">
-                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#">
-                    <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-                </a>
-            </div>
-
-        </div>
-
     </div>
+    <div class="row mt-2">
+        <div class="col-md-12">
+            <h2 class="my-3 display-6">Details of Exercise</h2>
+            <h3 class="h3">@Model.Detail.Title</h3>
+            <p class="h5">@Model.Detail.Description</p>
+            <p class="h5"><strong>Category:</strong> @Model.ExerciseCategory</p>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-12">
+            <h3 class="my-3 display-6">Case to perform</h3>
+            <img class="img-fluid rounded shadow" src="@Model.Detail.URL" alt="Image">
+        </div>
+    </div>
+</div>

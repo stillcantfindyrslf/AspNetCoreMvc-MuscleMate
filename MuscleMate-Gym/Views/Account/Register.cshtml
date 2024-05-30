@@ -1,15 +1,11 @@
 ﻿@using MuscleMate_Gym.ViewModels
 @model RegisterViewModel
 
+
 @{
     ViewData["Title"] = "Sign up";
 }
 <div class="row">
-    <div class="col-md-6 offset-3">
-        <p>
-            <h4>Sign up for a new account</h4>
-        </p>
-
         @if (TempData["Error"] != null)
         {
             <div class="col-md-12 alert alert-danger">
@@ -17,33 +13,37 @@
             </div>
         }
 
-        <div class="row">
-            <div class="col-md-8 offset-2">
-                <form asp-action="Register">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-                    <div class="form-group">
-                        <label asp-for="EmailAddress" class="control-label"></label>
-                        <input asp-for="EmailAddress" class="form-control" />
-                        <span asp-validation-for="EmailAddress" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Password" class="control-label"></label>
-                        <input asp-for="Password" class="form-control" />
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="ConfirmPassword" class="control-label"></label>
-                        <input asp-for="ConfirmPassword" class="form-control" />
-                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <input class="btn btn-outline-success float-right" type="submit" value="Sign up" />
-                        <a class="btn btn-outline-secondary" asp-controller="Race" asp-action="Index">Cancel</a>
-                    </div>
-                </form>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-dark text-white">Sign in</div>
+                <div class="card-body">
+                    <form asp-action="Register">
+                        <div class="form-group mb-2">
+                            <label asp-for="EmailAddress" class="control-label">Email</label>
+                            <input asp-for="EmailAddress" class="form-control" placeholder="Enter your email">
+                            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label asp-for="Password" class="control-label">Password</label>
+                            <input asp-for="Password" class="form-control" placeholder="Enter your password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label asp-for="ConfirmPassword" class="control-label">Confirm Password</label>
+                            <input asp-for="ConfirmPassword" class="form-control" placeholder="Enter your password again" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <input class="btn btn-outline-success float-right" type="submit" value="Sign up" />
+                            <a class="btn btn-outline-secondary" asp-controller="Exercise" asp-action="Index">Cancel</a>
+                        </div>
+                    </form>
             </div>
+                <div class="card-footer text-muted text-center">
+                    Already have an account?
+                    <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Account" asp-action="Login">Log in</a>
+                </div>
         </div>
     </div>
 </div>

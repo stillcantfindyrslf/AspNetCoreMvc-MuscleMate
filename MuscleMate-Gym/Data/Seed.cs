@@ -42,8 +42,7 @@ namespace MuscleMate_Gym.Data
                                     Title = "Front Squat",
                                     Description = "Set a barbell on a power rack at about shoulder height. Grab the power with an overhand grip at shoulder width and raise your elbows until your upper arms are parallel to the floor. Take the bar out of the rack and let it rest on your fingertips. Your elbows should be all the way up throughout the movement. Step back and set your feet at shoulder width with toes turned out slightly. Squat as low as you can without losing the arch in your lower back.",
                                     URL = "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2015/09/Bulgarian-Split-Squat.jpg?quality=86&strip=all"
-                                },
-
+                                }
                         },
                         new Exercise()
                         {

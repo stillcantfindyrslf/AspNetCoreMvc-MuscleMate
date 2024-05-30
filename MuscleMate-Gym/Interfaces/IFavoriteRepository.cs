@@ -7,7 +7,7 @@ namespace MuscleMate_Gym.Interfaces
         Task<bool> CheckIfExistsAsync(string userId, int exerciseId);
         Task AddFavoriteAsync(string userId, int exerciseId);
         Task RemoveFavoriteAsync(string userId, int exerciseId);
-        Task SaveChangesAsync();
+        Task Save();
         Task<IEnumerable<Exercise>> GetFavoritesByUserIdAsync(string userId);
     }
 }

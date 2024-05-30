@@ -43,7 +43,7 @@ namespace MuscleMate_Gym.Repository
             }
         }
 
-        public async Task SaveChangesAsync()
+        public async Task Save()
         {
             await _context.SaveChangesAsync();
         }

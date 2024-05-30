@@ -18,8 +18,10 @@ namespace MuscleMate_Gym.Controllers
         {
             user.Id = editVM.Id;
             user.UserName = editVM.UserName;
-            user.Favorites = editVM.Favorites;
+            user.Description = editVM.Description;
         }
+
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var userExercises = await _dashboardrepository.GetAllUserExercises();
@@ -29,6 +31,8 @@ namespace MuscleMate_Gym.Controllers
             };
             return View(dashboardViewModel);
         }
+
+        [HttpGet]
         public async Task<IActionResult> EditUserProfile()
         {
             var curUserId = _httpContextAccessor.HttpContext.User.GetUserId();
@@ -38,8 +42,7 @@ namespace MuscleMate_Gym.Controllers
             {
                 Id = curUserId,
                 UserName = user.UserName,
-                Description = user.Description,
-                Favorites = user.Favorites
+                Description = user.Description
             };
             return View(editUserViewModel);
         }
@@ -63,14 +66,7 @@ namespace MuscleMate_Gym.Controllers
 
                 return RedirectToAction("Index");
             }
-            else
-            {
-                MapUserEdit(user, editVM);
-
-                _dashboardrepository.Update(user);
-
-                return RedirectToAction("Index");
-            }
+            return RedirectToAction("Error");
         }
     }
 }

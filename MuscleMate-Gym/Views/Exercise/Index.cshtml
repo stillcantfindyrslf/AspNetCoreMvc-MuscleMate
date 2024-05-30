@@ -24,15 +24,17 @@
                         <h5 class="card-title">@item.Title</h5>
                         <p class="card-text">@(item.Description.Length > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)</p>
                         <p class="text-body-secondary">@item.ExerciseCategory</p>
-                            <div class="btn-group">
-                                @* <a asp-controller="Exercise" asp-action="Detail" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View</a> *@
-                                <a asp-controller="Exercise" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-light">Edit</a>
-                                <a asp-controller="Exercise" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-light">Delete</a>
-                                <form asp-controller="Exercise" asp-action="AddToFavorites" method="post" class="d-inline">
-                                    <input type="hidden" name="exerciseId" value="@item.Id" />
-                                    <button type="submit" class="btn btn-sm btn-outline-light">Add to Favorites</button>
-                                </form>
-                            </div>
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+                        {
+                         <div class="btn-group">
+                            <a asp-controller="Exercise" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-light">Edit</a>
+                            <a asp-controller="Exercise" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-light">Delete</a>
+                        </div>                           
+                        }
+                        <form asp-controller="Exercise" asp-action="AddToFavorites" method="post" class="d-inline">
+                            <input type="hidden" name="exerciseId" value="@item.Id" />
+                            <button type="submit" class="btn btn-sm btn-outline-light">Add to Favorites</button>
+                        </form>
                     </div>
                 </div>
             </div>

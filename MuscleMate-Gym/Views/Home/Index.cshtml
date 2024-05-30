@@ -1,8 +1,30 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="text-center">
+                <h1 class="display-4 mb-4">Welcome Back!</h1>
+                <p class="lead mb-4">You are already logged in. Go ahead and explore your workouts.</p>
+                <a asp-area="" asp-controller="Exercise" asp-action="Index" class="btn btn-primary btn-lg">Go to Workouts List</a>
+            </div>
+        }
+        else
+        {
+            <div class="text-center">
+                <h1 class="display-4 mb-4">Welcome to Smart Gym</h1>
+                <p class="lead mb-4">Organize your workouts effortlessly and stay fit with Smart Gym. Join us now and experience the ultimate workout solution.</p>
+                <div class="mt-4">
+                    <a asp-area="" asp-controller="Account" asp-action="Login" class="btn btn-primary btn-lg me-3">Log in</a>
+                    <a asp-area="" asp-controller="Account" asp-action="Register" class="btn btn-outline-primary btn-lg">Sign up</a>
+                </div>
+            </div>
+        }
+    </div>
 </div>
